@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.container{
+    width: 600px;
+    height: 700px;
+    border-radius: 5px;
+    border: 10px solid darkgray;
+    position: relative;
+   margin: auto;
+
+    display: flex;
+}
+.container .containers{
+    margin: 20px 30px;
+    flex: 1;
+}
+
+.containers .input-box .input-create{
+    padding: 10px;
+    width: 95%;
+}
+input{
+    padding: 10px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.containers .dateofgen{
+    display: flex;
+    justify-content: space-between;
+}
+.containers .dateofgen .date input{
+    width: 20%;
+
+}
+.containers .dateofgen .gender input{
+    width: 48%;
+}
+.payment{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.payment .creit{
+    width: 50%;
+}
+.payment .creit button{
+    padding: 10px;
+    width: 100%;
+}
+
+.payment .payal{
+    width: 50%;
+}
+.payment .payal button{
+    padding: 10px;
+    width: 100%;
+}
+.cardCVC{
+    display: flex;
+    justify-content: space-between;
+}
+.cardCVC .card{
+    width: 50%;
+}
+.cardCVC .month-year{
+    width: 50%;
+
+}
+.cardCVC .month-year input{
+    width: 49%;
+}
+

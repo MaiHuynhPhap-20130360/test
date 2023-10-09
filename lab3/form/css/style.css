@@ -1,0 +1,82 @@
+body, h3 {
+    margin: 0;
+    pading: 0;
+    font-size: 12px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+input {
+    padding: 10px;
+    background: #f7f7f7;
+    border-radius: 5px;
+    border: 2px solid #e6e6e6;
+}
+h1{
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+
+#container {
+    width: 500px;
+
+    position: relative;
+    text-align: center;
+    margin: auto;
+    border: 4px solid #e6e6e6;
+    align-items: center;
+
+
+}
+#container>div{
+    padding: 20px 40px;
+}
+#container .label_input1 .name{
+    float: left;
+}
+#container .label_input1 #fullname{
+    float: right;
+}
+#container .label_input1 #fullname{
+
+width: 95%;
+}
+#container .label_input2{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#container .label_input2 .email_create label{
+    display: block;
+    text-align: left;
+}
+
+#container .label_input2 .phone_create label{
+    display: block;
+    text-align: left;
+}
+#container .label_input4 label{
+    display: block;
+    text-align: left;
+}
+#container .label_input4 #textArea{
+  width: 100%;
+}
+#container .label_input5 input{
+    width: 100%;
+    border-radius: 20px;
+    background: #333333;
+    color: white
+}
+
+
+
+
+
+
+
+
+
+
